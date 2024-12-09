@@ -24,7 +24,7 @@
   gap: 33px;
   list-style-type: circle;
   width: 391px;
-  height: 22px;
+  height: 24px;
   font-size: 20px;
 }
 
@@ -49,9 +49,9 @@
 
 .address {
   position: relative;
-  left: -13px;
+  right: 14px;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 24.3px;
 }
 
 .header__address {
@@ -62,8 +62,6 @@
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
 }
 
 .overlay {
@@ -259,7 +257,7 @@
 .about {
   display: grid;
   gap: 25px;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 334px 694px;
   padding: 183px 28px 0 25px;
 }
 
@@ -298,11 +296,13 @@ width: 240px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
-  padding-bottom: 32px;
 }
 
-.about__text-one {
-  word-spacing: 0.01em;
+.about_text_part {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding-right: 5px;
 }
 
 .about__text:last-child {
@@ -313,25 +313,13 @@ width: 240px;
   display: flex;
   justify-content: space-between;
   padding: 181px 49px 90px;
+  margin-top: 0;
 }
 
 .footer__address {
-  max-width: 240px;
-  justify-self: end;
-  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 135%;
-  text-decoration: none;
-}
-
-.address__link {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
+  line-height: 24.3px;
 }
 
 .footer__menu {
@@ -345,14 +333,8 @@ width: 240px;
 }
 
 .footer__menu-link {
-  color: #000;
-  font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   padding-left: 41px;
 }
 
