@@ -74,7 +74,7 @@
 
 .cover {
   position: relative;
-  background-image: url(../../images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 179px;
@@ -204,15 +204,15 @@
 }
 
 .card_type_film {
-  background: url(../../../images/card-lot-01.jpg) no-repeat center / cover;
+  background: url(../images/card-lot-01.jpg) no-repeat center / cover;
 }
 
 .card_type_book {
-  background: url(../../../images/card-lot-02.jpg) no-repeat center / cover;
+  background: url(../images/card-lot-02.jpg) no-repeat center / cover;
 }
 
 .card_type_picture {
-  background: url(../../../images/card-lot-03.jpg) no-repeat center / cover;
+  background: url(../images/card-lot-03.jpg) no-repeat center / cover;
 }
 
 .card__title {
