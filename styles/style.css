@@ -82,7 +82,7 @@
 
 .cover_title {
   position: relative;
-  padding: 165px 50px 51px 50px; 
+  padding: 165px 50px 51px 50px;
   z-index: 1;
   line-height: 1.15;
   margin-bottom: 83px;
@@ -101,22 +101,22 @@
 
 .aligned-text-center {
   text-align: center;
-  line-height: 1; 
-  margin-top: 20px; 
+  line-height: 1;
+  margin-top: 20px;
 }
 
 .aligned-text-right {
   text-align: right;
-  line-height: 1; 
-  margin-top: 20px; 
+  line-height: 1;
+  margin-top: 20px;
 }
 
-.letter-spacing-extended { 
-  letter-spacing: 0.6em; 
-} 
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
 
-.no-letter-spacing { 
-  letter-spacing: 0em; 
+.no-letter-spacing {
+  letter-spacing: 0em;
 }
 
 .cover_decription {
@@ -151,7 +151,7 @@
   height: 51px;
   margin-right: 50px;
   margin-bottom: 51px;
-  z-index: 1;/*ct*/
+  z-index: 1; /*ct*/
 }
 
 .lots {
@@ -216,14 +216,14 @@
 }
 
 .card__title {
-    font-weight: 700;
-    color: white;
-    font-size: 22px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    line-height: 120%;
-    position: relative;
-    z-index: 2;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 120%;
+  position: relative;
+  z-index: 2;
 }
 
 .card__text {
@@ -237,9 +237,9 @@
 
 .overlay::after {
   position: absolute;
-  content: '';
+  content: "";
   inset: 0;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
@@ -266,11 +266,11 @@
 }
 
 .about__logo {
-display: block;
-background: black;
-clip-path: circle(50%);
-height: 240px;
-width: 240px;
+  display: block;
+  background: black;
+  clip-path: circle(50%);
+  height: 240px;
+  width: 240px;
 }
 
 .about__logo-image {
