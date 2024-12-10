@@ -21,14 +21,12 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 33px;
+  gap: 34px;
   list-style-type: circle;
-  width: 391px;
-  height: 24px;
   font-size: 20px;
 }
 
-.header__link_active .header__link {
+.header__link_active {
   text-decoration: none;
 }
 
@@ -39,8 +37,7 @@
 .header_logo {
   display: block;
   width: 138px;
-  position: relative;
-  left: 10px;
+  margin-left: 31px;
 }
 
 .header__logo-image {
@@ -48,10 +45,11 @@
 }
 
 .address {
-  position: relative;
-  right: 14px;
+  margin-right: 10px;
+  margin-top: 2px;
   font-size: 18px;
   line-height: 24.3px;
+  font-style: normal;
 }
 
 .header__address {
@@ -67,9 +65,11 @@
 .overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
-  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
   height: 100%;
-  z-index: 1;
+  width: 100%;
 }
 
 .cover {
@@ -151,7 +151,8 @@
   height: 51px;
   margin-right: 50px;
   margin-bottom: 51px;
-  z-index: 1; /*ct*/
+  z-index: 1;
+  font-family: Raleway, sans-serif;
 }
 
 .lots {
@@ -204,15 +205,15 @@
 }
 
 .card_type_film {
-  background: url(../images/card-lot-01.jpg) no-repeat center / cover;
+  background: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background: url(../images/card-lot-02.jpg) no-repeat center / cover;
+  background: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background: url(../images/card-lot-03.jpg) no-repeat center / cover;
+  background: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -235,23 +236,24 @@
   z-index: 2;
 }
 
-.overlay::after {
+.overlay {
   position: absolute;
-  content: "";
   inset: 0;
   background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .lots__look-more-link {
-  padding-top: 29px;
-  padding-left: 40px;
+  margin-top: 29px;
+  margin-left: 40px;
   font-size: 20px;
   font-style: normal;
   line-height: normal;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   text-underline-position: under;
+  width: fit-content;
 }
 
 .about {
@@ -301,8 +303,9 @@
 .about_text_part {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 31px;
   padding-right: 5px;
+  padding-top: 2px;
 }
 
 .about__text:last-child {
@@ -312,14 +315,14 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 181px 49px 90px;
+  padding: 184px 49px 90px;
   margin-top: 0;
 }
 
 .footer__address {
-  font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
+  top: 0px;
+  right: 0px;
 }
 
 .footer__menu {
