@@ -1,1 +1,1 @@
-https://github.com/lukochko/ono-tebe-nado
+https://github.com/lukochko/ono-tebe-nado-fd
